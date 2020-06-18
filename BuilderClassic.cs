@@ -258,7 +258,7 @@ namespace Builder2
 
         public class Director
         {
-            public IBuilder builder;
+            private IBuilder builder;
 
             public Director() { }
             public Director(IBuilder builder)
